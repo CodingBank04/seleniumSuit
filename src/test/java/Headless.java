@@ -9,6 +9,7 @@ import java.util.concurrent.TimeUnit;
 public class Headless {
     public static void main(String[] args) {
 
+
         System.setProperty("webdriver.chrome.driver", "/Users/vahit.peker/Desktop/chromedriver");
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--headless", "--disable-gpu", "--start-maximized", "--ignore-certificate-errors");

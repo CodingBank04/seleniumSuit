@@ -12,7 +12,7 @@ import java.util.concurrent.TimeUnit;
 
 public class WebDriverManager {
     public static void main(String[] args) {
-        io.github.bonigarcia.wdm.WebDriverManager.operadriver().setup();
+        io.github.bonigarcia.wdm.WebDriverManager.chromedriver().setup();
        // System.setProperty("webdriver.opera.driver","/Users/vahit.peker/Desktop/operadriver");
         //OperaOptions operaOptions=new OperaOptions();
         //operaOptions.setBinary("/Users/vahit.peker/Desktop");
@@ -22,4 +22,6 @@ public class WebDriverManager {
 
 
     }
-}
+
+    }
+
